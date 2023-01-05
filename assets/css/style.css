@@ -23,16 +23,31 @@ h1,h2,h3,h4,h5,h6 {
     font-family: 'Noto Sans', sans-serif;
 }
 
+h1{
+    font-size: 48px;
+    font-family: 'Noto Sans';
+    font-weight: 600;
+}
+
+h2{
+   font-size: 32px; 
+}
+
 h6 {
     color:var(--primary-color);
 }
 
 p{
     font-size: 18px;
+    font-family: 'Inter';
+    font-weight: 400;
 }
 
-p .p_marcacao{
+.p_marcacao{
     font-size: 14px;
+    font-family: 'Noto Sans';
+    font-weight: 600;
+    color: var(--primary-color);
 }
 
 p .card-marcacao{
@@ -70,6 +85,7 @@ p .card-marcacao{
 
 .card_img_what_it_does{
     background-color: var(--primary-color);
+    
 }
 
 #best_choice{
