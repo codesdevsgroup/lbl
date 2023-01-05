@@ -27,6 +27,18 @@ h6 {
     color:var(--primary-color);
 }
 
+p{
+    font-size: 18px;
+}
+
+p .p_marcacao{
+    font-size: 14px;
+}
+
+p .card-marcacao{
+    font-size: 12px;
+}
+
 #home {
     width: 100vw;
     height: 100vh;
@@ -42,6 +54,14 @@ h6 {
     height: 100vh;
 }
 
+#home p{
+    font-size: 20px;
+}
+
+#what_it_does {
+    background-color: #f0f0f0;
+}
+
 .img_what_it_does {
     background-image: url(/assets/img/image_1.webp);
     width: 485px;
@@ -51,3 +71,31 @@ h6 {
 .card_img_what_it_does{
     background-color: var(--primary-color);
 }
+
+#best_choice{
+    background-color: #f0f0f0;
+}
+
+#best_choice .container{
+    padding: 80px 200px;
+}
+
+#best_card{
+    display: flex;
+    
+}
+
+.best_choice_card{
+    background-color: #ffff;
+    width: 236px;
+    height: 350px;
+    border-radius: 15px;
+    margin: 0 24px;
+    padding-top: 50px;
+}
+
+/* carousel */
+.p_card{
+    font-size: 14px;
+}
+
