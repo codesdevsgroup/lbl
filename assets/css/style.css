@@ -84,9 +84,18 @@ p .card-marcacao{
 }
 
 .card_img_what_it_does{
+    color: #ffff;
     background-color: var(--primary-color);
-    
+    width: 119px;
+    height: 136px;
 }
+
+.card_img_what_it_does p{
+    font-size: 14px;
+    font-family: 'Noto Sans';
+    font-weight: 600;
+}
+
 
 #best_choice{
     background-color: #f0f0f0;
