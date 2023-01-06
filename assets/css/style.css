@@ -78,16 +78,35 @@ p .card-marcacao{
 }
 
 .img_what_it_does {
-    background-image: url(/assets/img/image_1.webp);
-    width: 485px;
-    height: 292px;
+    position: relative;
+    max-width: 501px;
+}
+
+.img_what_it_does img {
+    position: relative;
+    z-index: 1;
+    max-width: 100%;
 }
 
 .card_img_what_it_does{
+    bottom: 0;
+    right: 0;
+    position: absolute;
     color: #ffff;
     background-color: var(--primary-color);
     width: 119px;
     height: 136px;
+    z-index: 2;
+}
+
+.img_box_shadow {
+    width: 103%;
+    height: 100%;
+    background-color: #00A54F;
+    position: absolute;
+    top: -17px;
+    left: -16px;
+    z-index: 1 !important;
 }
 
 .card_img_what_it_does p{
