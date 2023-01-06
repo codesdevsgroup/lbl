@@ -101,10 +101,16 @@ button{
     background-color: #f0f0f0;
 }
 
+.shadow_what_it_does{
+    box-shadow: -1rem -1rem var(--primary-color) !important;
+    width: 31.3rem;
+}
+
 .img_what_it_does {
     background-image: url(/assets/img/image_1.webp);
     width: 485px;
     height: 292px;
+    background-size: cover;
 }
 
 .card_img_what_it_does{
@@ -124,6 +130,10 @@ button{
     font-weight: 600;
     letter-spacing: 1%;
     line-height: 18px;
+}
+
+.manufacture_gears_text{
+    color: #ffff;
 }
 
 
