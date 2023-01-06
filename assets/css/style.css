@@ -41,6 +41,7 @@ p{
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    line-height: 30px;
 }
 
 .p_card_what_it_does{
@@ -132,10 +133,15 @@ button{
     line-height: 18px;
 }
 
-.manufacture_gears_text{
-    color: #ffff;
+.manufacture_gears img {
+    width: 714px;
+    height: 493px;
 }
 
+.manufacture_gears_text{
+    color: #ffff;
+    padding: 80px;
+}
 
 #best_choice{
     background-color: #f0f0f0;
@@ -146,8 +152,7 @@ button{
 }
 
 #best_card{
-    display: flex;
-    
+    display: flex;   
 }
 
 .best_choice_card{
