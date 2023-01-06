@@ -119,9 +119,11 @@ button{
 }
 
 .card_img_what_it_does p{
-    font-size: 14px;
-    font-family: 'Noto Sans';
+    font-size: 15px;
+    font-family: 'Inter';
     font-weight: 600;
+    letter-spacing: 1%;
+    line-height: 18px;
 }
 
 
