@@ -8,6 +8,7 @@
 :root {
     --primary-color:#00A54F;
     --bg-color:#D9DAEE;
+    --bg-color-2:#F0F0F0;
 }
 
 html {
@@ -99,7 +100,7 @@ button{
 }
 
 #what_it_does {
-    background-color: #f0f0f0;
+    background-color: var(--bg-color-2);
 }
 
 .shadow_what_it_does{
@@ -134,7 +135,7 @@ button{
 }
 
 #best_choice{
-    background-color: #f0f0f0;
+    background-color: var(--bg-color-2);
 }
 
 #best_choice .container{
@@ -164,7 +165,20 @@ button{
     padding: 80px;
 }
 
+#how_can_we_help {
+    background-color: var(--bg-color-2);
+}
+
+.help_list p {
+    margin-bottom: 0;
+    padding: 0.5rem;
+}
+
 /* carousel */
+#carousel {
+    background-color: var(--bg-color-2); 
+}
+
 .p_card{
     font-size: 14px;
 }
