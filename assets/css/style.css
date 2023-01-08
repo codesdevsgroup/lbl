@@ -167,11 +167,35 @@ button{
 
 #how_can_we_help {
     background-color: var(--bg-color-2);
+    padding-block: 100px;
 }
 
 .help_list p {
     margin-bottom: 0;
     padding: 0.5rem;
+}
+
+.img_help_list {
+    padding-left: 69px;
+}
+
+.card_img_help_list {
+    background-color: #ffff;
+    width: 384px;
+    height: 121px;
+    box-shadow: -10px 0 var(--primary-color);
+    margin-top: -81px;
+    position: relative;
+    padding-left: 20px;
+    margin-left: 24px;
+}
+
+.p_help_list{
+    color: var(--primary-color);
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;  
 }
 
 /* carousel */
