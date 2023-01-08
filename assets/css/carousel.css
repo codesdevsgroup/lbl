@@ -42,3 +42,11 @@
   .carousel-inner .carousel-item-start {
     transform: translateX(0);
   }
+
+  .carousel-control-next-icon{
+    background-image: url(/assets/svg/next_icon.svg);
+  }
+
+  .carousel-control-prev-icon {
+    background-image: url(/assets/svg/prev_icon.svg);
+  }
