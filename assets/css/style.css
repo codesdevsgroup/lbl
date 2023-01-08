@@ -231,13 +231,20 @@ button{
     line-height:30px;
 }
 
-.p_marcacao_customers{
+.customers_text{
+    padding-block:80px 60px;
     color:#ffff;
+}
+.p_marcacao_customers{
     font-family:'Noto Sans';
     font-weight:600;
     font-size:14px;
     line-height:19px;
     letter-spacing:10%;
+    margin-bottom:0;
+}
+.logo_customers{
+    padding-bottom:80px;
 }
 
 
