@@ -10,38 +10,31 @@
     --bg-color:#D9DAEE;
     --bg-color-2:#F0F0F0;
 }
-
 html {
     scroll-behavior:smooth;
 }
-
 html,body {
     width:100%;
     height:100%;
     overflow:overlay;
 }
-
 h1,h2,h3,h4,h5,h6 {
     font-family:'Noto Sans', sans-serif;
 }
-
 h1{
     font-size:48px;
     font-weight:600;
 }
-
 h2{
    font-size:32px; 
    font-weight:600;
    line-height:48px;
    letter-spacing:2%;
 }
-
 p{
     font-family:'Inter';
     font-size:18px;
     font-weight:400;
-    line-height:30px;
     line-height:30px;
 }
 
@@ -52,7 +45,6 @@ p{
     letter-spacing:1%;
     line-height:18px;
 }
-
 .p_marcacao{
     color:var(--primary-color);
     font-family:'Noto Sans';
@@ -61,7 +53,6 @@ p{
     line-height:19px;
     letter-spacing:10%
 }
-
 p .card-marcacao{
     font-size:12px;
 }
@@ -90,11 +81,9 @@ button{
     height:100%;
     color:#ffff;
 }
-
 #home .container {
     height:100vh;
 }
-
 #home p{
     font-size:20px;
 }
@@ -102,30 +91,24 @@ button{
 #what_it_does {
     background-color:var(--bg-color-2);
 }
-
 .shadow_what_it_does{
     box-shadow:-1rem -1rem var(--primary-color) !important;
-    width:31.3rem;
 }
-
 .img_what_it_does {
     background-image:url(/assets/img/image_1.webp);
     width:485px;
     height:292px;
     background-size:cover;
 }
-
 .card_img_what_it_does{
     color:#ffff;
     background-color:var(--primary-color);
     width:119px;
     height:136px;
 }
-
 .card_img_what_it_does img{
     padding-bottom:12px;
 }
-
 .card_img_what_it_does p{
     font-size:15px;
     font-family:'Inter';
@@ -137,15 +120,12 @@ button{
 #best_choice{
     background-color:var(--bg-color-2);
 }
-
 #best_choice .container{
     padding:80px 200px;
 }
-
 #best_card{
     display:flex;   
 }
-
 .best_choice_card{
     background-color:#ffff;
     width:236px;
@@ -159,7 +139,6 @@ button{
     width:714px;
     height:493px;
 }
-
 .manufacture_gears_text{
     color:#ffff;
     padding:80px;
@@ -169,16 +148,13 @@ button{
     background-color:var(--bg-color-2);
     padding-block:100px;
 }
-
 .help_list p {
     margin-bottom:0;
     padding:0.5rem;
 }
-
 .img_help_list {
     padding-left:69px;
 }
-
 .card_img_help_list {
     background-color:#ffff;
     width:384px;
@@ -189,7 +165,6 @@ button{
     padding-left:20px;
     margin-left:24px;
 }
-
 .p_help_list{
     color:var(--primary-color);
     font-family:'Inter';
@@ -245,6 +220,14 @@ button{
 }
 .logo_customers{
     padding-bottom:80px;
+}
+
+#story{
+    padding-block: 80px 130px;
+}
+#story img{
+    box-shadow:-1rem 1rem var(--primary-color);
+    margin-left: 80px;
 }
 
 
