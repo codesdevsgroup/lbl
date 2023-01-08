@@ -230,4 +230,23 @@ button{
     margin-left: 80px;
 }
 
+#company_and_machines{
+    padding-bottom: 80px;
+}
+.company_text p{
+    margin:0;
+}
+.img_company{
+    padding-top:64px;
+}
+
+/* footer */
+#contact {
+    background:#373636;
+    color:#ffff;
+}
+#contact .container{
+    padding-block: 80px;
+}
+
 
