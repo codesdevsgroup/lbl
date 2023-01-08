@@ -12,6 +12,7 @@
 }
 html {
     scroll-behavior:smooth;
+    overflow-x: hidden;
 }
 html,body {
     width:100%;
@@ -246,7 +247,27 @@ button{
     color:#ffff;
 }
 #contact .container{
-    padding-block: 80px;
+    padding-block: 80px 40px;
+}
+.contact_details  p a{
+    text-decoration: none;
+    color: #ffff;
+}
+.menu_footer {
+    display: grid;
+}
+.menu_footer a{
+    color: #ffff;
+    text-decoration:none;
+    font-family:'Inter';
+    font-weight:500;
+    font-size:16px;
+    line-height:21px;
+    margin-block:16px;
+}
+.coopright a{
+   text-decoration:none;
+   color:#ffff; 
 }
 
 
