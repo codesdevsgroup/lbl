@@ -223,7 +223,7 @@ button{
 }
 .btn_help_list button{
     background-color: #F0F0F0;
-    border: 2px solid var(--primary-color);
+    border: 3px solid var(--primary-color);
 }
 .btn_help_list a{
     text-decoration: none;
@@ -242,6 +242,14 @@ button{
 }
 .carousel_card_text {
     padding:10px;
+}
+.carousel_card_text a{
+    color: var(--primary-color);
+    font-family:'Noto Sans';
+    font-weight:600;
+    font-size:12px;
+    line-height:16px;
+    letter-spacing:10%;
 }
 .card-title{
     font-family:'Inter';
