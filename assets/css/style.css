@@ -117,8 +117,11 @@ button{
     font-size:20px;
 }
 #home button {
-    color:#FFFFFF;
     background-color: var(--primary-color);
+}
+#home a{
+    text-decoration: none;
+    color: #ffff;
 }
 
 #what_it_does {
@@ -215,6 +218,18 @@ button{
     font-weight:600;
     line-height:30px;  
 }
+.btn_help_list{
+    padding-block:45px;
+}
+.btn_help_list button{
+    background-color: #F0F0F0;
+    border: 2px solid var(--primary-color);
+}
+.btn_help_list a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
 
 /* carousel */
 #carousel {
