@@ -94,6 +94,11 @@ button{
     position: absolute;
     z-index: 500;
 }
+.btn_nav_contact a{
+    text-decoration: none;
+    color: #141414;  
+}
+
 
 #home {
     width:100vw;
@@ -110,6 +115,10 @@ button{
 }
 #home p{
     font-size:20px;
+}
+#home button {
+    color:#FFFFFF;
+    background-color: var(--primary-color);
 }
 
 #what_it_does {
@@ -166,6 +175,11 @@ button{
 .manufacture_gears_text{
     color:#ffff;
     padding:80px;
+}
+.manufacture_gears_text button{
+    color: #ffff;
+    background-color: var(--primary-color);
+    border: 2px solid #ffff;
 }
 
 #how_can_we_help {
