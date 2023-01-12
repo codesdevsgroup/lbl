@@ -72,6 +72,29 @@ button{
     background-color:var(--primary-color);
 }
 
+.nav_logo p{
+    color: #ffff;
+    font-family:'Noto Sans';
+    font-weight:600;
+    font-size:20px;
+    line-height:27px;
+    letter-spacing:2%;
+    display: inline-flex;
+}
+.navbar-toggler {
+    margin-left: 30px;
+}
+.navbar_content_itens{
+    text-transform: uppercase;
+    border-radius: 5px;
+    align-items: left ;
+    background-color: transparent;
+    padding-right: 200px;
+    margin-top: 25px;
+    position: absolute;
+    z-index: 500;
+}
+
 #home {
     width:100vw;
     height:100vh;
