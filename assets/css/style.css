@@ -237,19 +237,13 @@ button{
     padding-bottom:80px; 
 }
 .card{
-    width:286px;
-    height:450px;
-}
+    width: 286px;
+    height: 450px;
+    background-color: #f0f0f0;
+    border: 0;
+  }
 .carousel_card_text {
     padding:10px;
-}
-.carousel_card_text a{
-    color: var(--primary-color);
-    font-family:'Noto Sans';
-    font-weight:600;
-    font-size:12px;
-    line-height:16px;
-    letter-spacing:10%;
 }
 .card-title{
     font-family:'Inter';
@@ -270,6 +264,16 @@ button{
     font-weight:400;
     Font-size:14px;
     line-height:30px;
+}
+.card_link a{
+    color: var(--primary-color);
+    font-family:'Noto Sans';
+    font-weight:600;
+    font-size:12px;
+    line-height:16px;
+    letter-spacing:10%;
+    padding-bottom: 60px;
+    padding-left: 10px; 
 }
 
 .customers_text{
