@@ -99,11 +99,10 @@ button{
     z-index:500;
     padding-left:30px;
 }
-.btn_nav_contact a{
-    text-decoration: none;
-    color: #141414;  
+.btn_nav_contact:hover{
+    background-color: var(--primary-color);
+    color: #ffff;
 }
-
 
 #home {
     width:100vw;
@@ -122,10 +121,10 @@ button{
     font-size:20px;
 }
 #home button {
-    background-color: var(--primary-color);
+    background-color:#ffff; 
 }
-#home a{
-    text-decoration: none;
+#home button:hover{
+    background-color: var(--primary-color);
     color: #ffff;
 }
 
@@ -184,14 +183,16 @@ button{
     color:#ffff;
     padding:80px;
 }
-.manufacture_gears_text a{
-    text-decoration: none;
-    color: #ffff;
-}
 .manufacture_gears_text button{
-    color: #ffff;
-    background-color: var(--primary-color);
-    border: 2px solid #ffff;
+    margin-top:30px;
+    color:#ffff;
+    background-color:var(--primary-color);
+    border:2px solid #ffff;
+}
+.manufacture_gears_text button:hover{
+    background-color:#ffff;
+    color: var(--primary-color);
+
 }
 
 
@@ -228,13 +229,13 @@ button{
 }
 .btn_help_list button{
     background-color: #F0F0F0;
+    color: var(--primary-color);
     border: 3px solid var(--primary-color);
 }
-.btn_help_list a{
-    text-decoration: none;
-    color: var(--primary-color);
+.btn_help_list button:hover{
+    background-color: var(--primary-color);
+    color: #ffff;
 }
-
 
 /* carousel */
 #carousel {
