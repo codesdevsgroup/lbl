@@ -240,7 +240,7 @@ button{
     width: 286px;
     height: 450px;
     background-color: #f0f0f0;
-    border: 0;
+    margin-block: 10px;
   }
 .carousel_card_text {
     padding:10px;
@@ -272,8 +272,7 @@ button{
     font-size:12px;
     line-height:16px;
     letter-spacing:10%;
-    padding-bottom: 60px;
-    padding-left: 10px; 
+    padding-left:10px; 
 }
 
 .customers_text{
