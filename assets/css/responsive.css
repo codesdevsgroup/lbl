@@ -1,0 +1,17 @@
+@media (max-width:576px){
+    .no_wide button{
+        display:none;
+    }
+    .nav_logo p{
+        width:176px;
+        height:44px;
+        font-size:16px;
+        vertical-align: middle;
+    }
+    .navbar_content_itens{
+        display: flex;
+        margin-right:20px;
+
+
+    }
+}
