@@ -49,14 +49,44 @@
     #best_choice .container {
         padding: 80px 20px;
       }
-
     .best_choice_card{
         margin-top: 25px;
       } 
     
-    #manufacture_gears{
-        flex-direction: row-reverse;
-        
+    .title_help_list{
+        text-align: center;
+        align-content: center;
     }
-
+    .title_help{
+        text-align: center;
+        font-size: 32px;
+    } 
+    .p_help_list{
+        width:287px;
+        height:60px;
+        text-align:center;
+        font-size:18px;
+        line-height:30px;
+        margin:auto;
+        color: #000;
+    }
+    .help_list{
+        margin-top:20px;
+        margin-left: 15px;
+    }
+    .help_list p {
+        align-items:center;
+        margin-inline:35px;
+        font-size:20px;
+        line-height:30px;
+    }
+    .help_list img{
+        display: flex;
+        position: absolute;
+        margin-top: 18px;
+        margin-left: 20px;
+    }
+    .btn_help_list{
+        margin-left:10%;
+    }
 }
