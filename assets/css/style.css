@@ -120,6 +120,10 @@ button{
 }
 #home p{
     font-size:20px;
+    margin-block:32px;
+}
+.text_home{
+    width:727px;
 }
 #home button {
     background-color:#ffff; 
@@ -131,6 +135,14 @@ button{
 
 #what_it_does {
     background-color:var(--bg-color-2);
+    padding-block: 90px;
+}
+.text_what_is_does{
+    width:540px;
+    margin-right:80px;
+}
+.card_what{
+    
 }
 .shadow_what_it_does{
     box-shadow:-1rem -1rem var(--primary-color) !important;
@@ -164,6 +176,12 @@ button{
 #best_choice .container{
     padding:80px 200px;
 }
+.best_text{
+    margin:auto;
+    width:741px;
+    text-align:center;
+    margin-bottom:62px;
+}
 #best_card{
     display:flex;   
 }
@@ -174,6 +192,10 @@ button{
     border-radius:15px;
     margin:0 24px;
     padding-top:50px;
+}
+.best_choice_card:hover{
+    background-color: var(--primary-color);
+    color: #ffff;
 }
 
 .manufacture_gears img {
