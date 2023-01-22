@@ -238,7 +238,12 @@ button{
     background-color:var(--bg-color-2);
     padding-block:100px;
 }
+.help_contains{
+    margin-left: 50px;
+    
+}
 .help_list p {
+    width:546px;
     margin-bottom:0;
     padding:0.5rem;
 }
