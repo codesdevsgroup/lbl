@@ -305,6 +305,14 @@ button{
 .carousel_card_text {
     padding:10px;
 }
+.title_card_carousel{
+    width: 242px;
+    height: 60px;
+}
+.text_card_carousel{
+    width:242px;
+    height:152px;
+}
 .card-title{
     font-family:'Inter';
     font-weight:500;
@@ -317,7 +325,9 @@ button{
     font-size:12px;
     line-height:16px;
     letter-spacing:10%;
-    color: var(--primary-color);
+    color:var(--primary-color);
+    padding-top:5px;
+    padding-bottom:0;
 }
 .p_card{
     font-family:'Inter';
