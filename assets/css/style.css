@@ -288,6 +288,9 @@ button{
     background-color:var(--bg-color-2);
     padding-bottom:80px; 
 }
+.carousel-inner{
+    width:80%;
+}
 .carousel_text{
     margin-bottom:60px;
 }
@@ -296,7 +299,8 @@ button{
     height: 450px;
     background-color: #f0f0f0;
     margin-block: 10px;
-    border: none;
+    border:none;
+    margin-inline:10px;
   }
 .carousel_card_text {
     padding:10px;
