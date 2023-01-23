@@ -140,9 +140,11 @@ button{
 .text_what_is_does{
     width:540px;
     margin-right:80px;
+    margin:auto;
 }
 .shadow_what_it_does{
     box-shadow:-1rem -1rem var(--primary-color) !important;
+    margin:auto;
 }
 .img_what_it_does {
     background-image:url(/assets/img/image_1.webp);
@@ -242,6 +244,10 @@ button{
     margin-left: 50px;
     
 }
+.help_text{
+    margin: auto;
+}
+
 .help_list p {
     width:546px;
     margin-bottom:0;
