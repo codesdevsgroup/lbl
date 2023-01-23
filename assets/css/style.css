@@ -360,13 +360,20 @@ button{
 .logo_customers{
     padding-bottom:80px;
 }
+.logo_customers img{
+    display: none;
+}
 
 #story{
     padding-block: 80px 130px;
 }
+.story_text{
+    width:480px;
+    margin: auto;
+}
 #story img{
     box-shadow:-1rem 1rem var(--primary-color);
-    margin-left: 80px;
+    margin-left:auto;
 }
 
 #company_and_machines{
@@ -377,6 +384,19 @@ button{
 }
 .img_company{
     padding-top:64px;
+    margin-left:10px;
+}
+.machines{
+    padding:0;
+    margin:0;
+    width: fit-content;
+    margin-bottom:8px;
+}
+.machine_2{
+    margin-inline:8px;
+}
+.machine_5{
+    margin-left:8px;
 }
 
 /* footer */
