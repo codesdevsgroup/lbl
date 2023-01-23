@@ -384,6 +384,8 @@ button{
 
 #company_and_machines{
     padding-bottom: 80px;
+    margin-left:150px;
+    padding:auto;
 }
 .company_text p{
     margin:0;
