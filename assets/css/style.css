@@ -182,7 +182,8 @@ button{
     margin-bottom:62px;
 }
 #best_card{
-    display:flex;   
+    display:flex; 
+    flex-wrap: nowrap; 
 }
 .best_choice_card{
     background-color:#ffff;
@@ -394,18 +395,18 @@ button{
     padding-top:64px;
     margin-left:10px;
 }
-.machines{
+/* .machines{
     padding:0;
     margin:0;
     width: fit-content;
     margin-bottom:8px;
-}
-.machine_2{
+} */
+/* .machine_2{
     margin-inline:8px;
 }
 .machine_5{
     margin-left:8px;
-}
+} */
 
 /* footer */
 #contact {
