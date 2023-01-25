@@ -384,14 +384,28 @@ button{
 }
 
 #company_and_machines{
-    padding-bottom: 80px;
-    margin-left: 7%; 
+    padding-bottom: 80px; 
+}
+.company_text{
+    width:1095px;
+    margin: auto;
 }
 .company_text p{
     margin:0;
 }
 .img_company{
     padding-top:50px;
+    width:1095px;
+    margin: auto;
+}
+.image{
+    margin-bottom:8px;
+}
+.image_2{
+    margin-inline:8px;
+}
+.image_5{
+    margin-left:8px;
 }
 
 /* footer */
