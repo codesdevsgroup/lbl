@@ -412,6 +412,7 @@ button{
 #contact {
     background:#373636;
     color:#ffff;
+    margin-block:160px;
 }
 #contact .container{
     padding-block: 80px 40px;
@@ -421,7 +422,9 @@ button{
     color: #ffff;
 }
 .menu_footer {
-    display: grid;
+    display:grid;
+    margin: auto;
+
 }
 .menu_footer a{
     color: #ffff;
@@ -429,8 +432,12 @@ button{
     font-family:'Inter';
     font-weight:500;
     font-size:16px;
-    line-height:21px;
-    margin-block:16px;
+    line-height:16px;
+    margin-block:16px;  
+}
+.menu_footer a:hover{
+    text-decoration:underline;
+    color: #ffff;
 }
 .coopright a{
    text-decoration:none;
