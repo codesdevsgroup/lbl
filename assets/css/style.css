@@ -385,28 +385,14 @@ button{
 
 #company_and_machines{
     padding-bottom: 80px;
-    margin-left:150px;
-    padding:auto;
+    margin-left: 7%; 
 }
 .company_text p{
     margin:0;
 }
 .img_company{
-    padding-top:64px;
-    margin-left:10px;
+    padding-top:50px;
 }
-/* .machines{
-    padding:0;
-    margin:0;
-    width: fit-content;
-    margin-bottom:8px;
-} */
-/* .machine_2{
-    margin-inline:8px;
-}
-.machine_5{
-    margin-left:8px;
-} */
 
 /* footer */
 #contact {
