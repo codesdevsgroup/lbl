@@ -17,36 +17,55 @@
   <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/responsive.css">
+
 </head>
 
-<body>
-
-
-  <nav class="navbar navbar-dark bg-dark">
+<body style="background-color: blue;">
+  <nav class="navbar navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
-      <img src="./assets/img/logo_lbl.png" alt="">
-      <p style="color: #ffff;">LBL TORNEAMENTOS E FRESAGENS</p>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleContent"
-        aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-    <div class="collapse" id="navbarToggleContent">
-      <div class="menu_itens">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
+      <div class="nav_logo">
+        <img src="./assets/img/logo_lbl.png" width="75px" height="75px" alt="">
+        <p>LBL TORNEAMENTOS E FRESAGENS</p>
       </div>
-    </div>
+      <div class="d-inline no_wide">
+      <div class="d-inline">
+        <a href="https://wa.me/5531985011759"><button class="btn_nav_contact">Entre em
+          contato!</button></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">O que fazemos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Nossa história</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contato</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </div>
   </nav>
+
+
 
   <script src="./assets/js/bootstrap.min.js"></script>
 </body>
