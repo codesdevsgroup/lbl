@@ -12,7 +12,7 @@
 }
 html {
     scroll-behavior:smooth;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 html,body {
     width:100%;
@@ -387,9 +387,6 @@ button{
 }
 .logo_customers{
     padding-bottom:80px;
-}
-.logo_customers img{
-    display: none;
 }
 
 #story{
