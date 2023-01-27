@@ -87,8 +87,10 @@ button{
 .offcanvas-header button{
     background-color: transparent;
     margin:0;
-    padding:5px;
-    
+    padding:5px; 
+}
+.offcanvas-header img{
+    rotate: 180deg;
 }
 .offcanvas-body{
     padding-block: 74px 286px;
