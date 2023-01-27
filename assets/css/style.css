@@ -73,6 +73,7 @@ button{
 }
 .navbar{
     background-color: #fff0!important;
+    padding-inline: 160px;
 }
 #offcanvasDarkNavbar{
     text-transform: uppercase;
@@ -82,6 +83,12 @@ button{
     font-family:'Inter';
     font-weight:500;
     line-height:32px;
+}
+.offcanvas-header button{
+    background-color: transparent;
+    margin:0;
+    padding:5px;
+    
 }
 .offcanvas-body{
     padding-block: 74px 286px;
