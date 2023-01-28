@@ -101,11 +101,9 @@ button{
     transform:scale(1.15);
     
 }
-
 .style_navbar_scrool{
     background-color: rgb(33, 37, 41) !important;
 }
-
 .nav_logo p{
     color: #ffff;
     font-family:'Noto Sans';
@@ -428,6 +426,10 @@ button{
     padding-top:50px;
     width:1095px;
     margin: auto;
+}
+.img_company img:hover{
+    transition: all 250ms;
+    transform: scale(1.05);
 }
 .image{
     margin-bottom:8px;
