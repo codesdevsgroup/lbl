@@ -8,3 +8,15 @@ $('.best_choice_card').hover(
     }
 )
 
+/* Altera cor da NavBar */
+const desiredElement = document.getElementById('navbar');
+const pixelsAmount = '75';
+
+window.addEventListener('scroll', function() {
+    if (window.scrollY > pixelsAmount) {
+    	desiredElement.classList.add('style_navbar_scrool'); 
+    } else {
+      desiredElement.classList.remove('style_navbar_scrool'); 
+    }
+});
+

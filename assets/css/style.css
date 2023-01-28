@@ -102,6 +102,10 @@ button{
     
 }
 
+.style_navbar_scrool{
+    background-color: rgb(33, 37, 41) !important;
+}
+
 .nav_logo p{
     color: #ffff;
     font-family:'Noto Sans';
