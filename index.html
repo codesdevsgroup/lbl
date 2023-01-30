@@ -18,57 +18,49 @@
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/responsive.css">
   <link rel="stylesheet" href="./assets/css/carousel.css">
+  <link rel="stylesheet" href="./assets/css/menu.css">
 </head>
 
 <body>
-  <header>
-    <nav id="navbar" class="navbar navbar-dark bg-dark fixed-top">
-      <div class="container-fluid">
-        <div class="nav_logo">
-          <img src="./assets/img/logo_lbl.png" width="75px" height="75px" alt="">
-          <p>LBL TORNEAMENTOS E FRESAGENS</p>
-        </div>
-        <div class="d-inline no_wide">
-        <div class="d-inline">
-          <a href="https://wa.me/5531985011759"><button class="btn_nav_contact">Entre em
-            contato!</button></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
-            aria-controls="offcanvasDarkNavbar">
-            <img src="./assets/svg/icon_menu.svg" alt="Icone menu hamburguer">
-          </button>
-          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
-            aria-labelledby="offcanvasDarkNavbarLabel">
-            <div class="offcanvas-header">
-              <button type="button"  data-bs-dismiss="offcanvas"
-                aria-label="Close"><img src="./assets/svg/icon_close_menu.svg" alt=""></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page"  href="#home">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page"  href="#what_it_does">O que fazemos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page"  href="#carousel">Serviços</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page"  href="#story">Nossa história</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page"  href="#contact">Contato</a>
-                </li>
-              </ul>
-              
-            </div>
-          </div>
-        </div>
-    </nav>
-  </header>
-
   <main>
     <section id="home">
+      <nav id="navigation">
+        <div class="container">
+          <div class="logo_home d-flex">
+            <a href="https://www.lbltorneamentos.com/"><img class="logo" src="./assets/img/logo_lbl.png"
+                alt="logo" /></a>
+            <p>LBL TORNEAMENTOS E FRESAGENS</p>
+          </div>
+          <div class="buttons_nav">
+              <a href="https://wa.me/5531985011759"><button id="btn_nav_contact">Entre em
+                contato!</button></a>
+            <button class="toggle-nav open_menu" aria-label="Abre menu">
+              <svg width="33" height="23" viewBox="0 0 33 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2 2H31" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M2 11.7385H31" stroke="white" stroke-width="3" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path d="M2 21.4771H31" stroke="white" stroke-width="3" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </button>
+          </div>
+
+        </div>
+        <div class="menu-options">
+          <button class="toggle-nav close_menu" aria-label="Fecha menu">
+            <img src="./assets/svg/icon_close_menu.svg" alt="">
+            </svg>
+          </button>
+
+          <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="#what_it_does">O que fazemos</a></li>
+            <li><a href="#how_can_we_help">Serviços</a></li>
+            <li><a href="#story">Nossa história</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </div>
+      </nav>
       <div class="container d-flex align-items-center">
         <div class="text_home">
           <h1 class="mb-3">
@@ -236,7 +228,8 @@
           <div class="carousel-item active">
             <div class="col-12 col-md-4 col-xl-3 d-flex justify-content-center">
               <div class="card">
-                <img src="./assets/img/engrenagem_conica.webp" alt="Engrenagens Cônicas" width="260px" height="200px" class="card-img-top" />
+                <img src="./assets/img/engrenagem_conica.webp" alt="Engrenagens Cônicas" width="260px" height="200px"
+                  class="card-img-top" />
                 <div class="carousel_card_text">
                   <div class="title_card_carousel">
                     <h3 class="card-title">Engrenagens Cônicas de Dente Reto</h3>
@@ -257,7 +250,8 @@
           <div class="carousel-item">
             <div class="col-12 col-md-4 col-xl-3 d-flex justify-content-center">
               <div class="card">
-                <img src="./assets/img/eixo_estriado.webp" alt="Eixo Estriado" width="260px" height="200px" class=" card-img-top" />
+                <img src="./assets/img/eixo_estriado.webp" alt="Eixo Estriado" width="260px" height="200px"
+                  class=" card-img-top" />
                 <div class="carousel_card_text">
                   <div class="title_card_carousel">
                     <h3 class="card-title">Eixos e buchas Estriadas</h3>
@@ -278,7 +272,8 @@
           <div class="carousel-item">
             <div class="col-12 col-md-4 col-xl-3 d-flex justify-content-center">
               <div class="card">
-                <img src="./assets/img/eixos_variados.webp" alt="Eixo" width="260px" height="200px" class=" card-img-top" />
+                <img src="./assets/img/eixos_variados.webp" alt="Eixo" width="260px" height="200px"
+                  class=" card-img-top" />
                 <div class="carousel_card_text">
                   <div class="title_card_carousel">
                     <h3 class="card-title">Eixos Variados</h3>
@@ -299,8 +294,8 @@
           <div class="carousel-item">
             <div class="col-12 col-md-4 col-xl-3 d-flex justify-content-center">
               <div class="card">
-                <img src="./assets/img/acoplamento_de_engrenagem.webp" alt="Acoplamento de Engrenagem" width="260px" height="200px"
-                  class=" card-img-top" />
+                <img src="./assets/img/acoplamento_de_engrenagem.webp" alt="Acoplamento de Engrenagem" width="260px"
+                  height="200px" class=" card-img-top" />
                 <div class="carousel_card_text">
                   <div class="title_card_carousel">
                     <h3 class="card-title">Acoplamento de engrenagem</h3>
@@ -321,7 +316,8 @@
           <div class="carousel-item">
             <div class="col-12 col-md-4 col-xl-3 d-flex justify-content-center">
               <div class="card">
-                <img src="./assets/img/acoplamento_perfurado.webp" alt="Acoplamento Perfurado" width="260px" height="200px" class="card-img-top" />
+                <img src="./assets/img/acoplamento_perfurado.webp" alt="Acoplamento Perfurado" width="260px"
+                  height="200px" class="card-img-top" />
                 <div class="carousel_card_text">
                   <div class="title_card_carousel">
                     <h3 class="card-title">Acoplamento Perfurado</h3>
@@ -342,7 +338,8 @@
           <div class="carousel-item">
             <div class="col-12 col-md-4 col-xl-3 d-flex justify-content-center">
               <div class="card">
-                <img src="./assets/img/coroa_sem_fim.webp" alt="Coroa sem fim" width="260px" height="200px" class="card-img-top" />
+                <img src="./assets/img/coroa_sem_fim.webp" alt="Coroa sem fim" width="260px" height="200px"
+                  class="card-img-top" />
                 <div class="carousel_card_text">
                   <div class="title_card_carousel">
                     <h3 class="card-title">Coroa e parafuso sem-fim</h3>
@@ -364,7 +361,8 @@
           <div class="carousel-item">
             <div class="col-12 col-md-4 col-xl-3 d-flex justify-content-center">
               <div class="card">
-                <img src="./assets/img/engrenagem_de_corrente.webp" alt="Engrenagem de Corrente" width="260px" height="200px" class="card-img-top" />
+                <img src="./assets/img/engrenagem_de_corrente.webp" alt="Engrenagem de Corrente" width="260px"
+                  height="200px" class="card-img-top" />
                 <div class="carousel_card_text">
                   <div class="title_card_carousel">
                     <h3 class="card-title">Engrenagem de corrente</h3>
@@ -384,7 +382,8 @@
           <div class="carousel-item">
             <div class="col-12 col-md-4 col-xl-3 d-flex justify-content-center">
               <div class="card">
-                <img src="./assets/img/engrenagem_helicoidal.webp" alt="Engrenagem Helicoidal" width="260px" height="200px" class="card-img-top" />
+                <img src="./assets/img/engrenagem_helicoidal.webp" alt="Engrenagem Helicoidal" width="260px"
+                  height="200px" class="card-img-top" />
                 <div class="carousel_card_text">
                   <div class="title_card_carousel">
                     <h3 class="card-title">Engrenagem helicoidal de Dente Reto</h3>
@@ -465,13 +464,17 @@
         <div class="img_company">
           <div class="row">
             <div class="col-12">
-                <img class="image" src="./assets/img/machine_1.webp" width="354px" height="320px" alt="Torno Mecânico Romi">
-                <img class="image image_2" src="./assets/img/machine_2.webp" width="354px" height="320px" alt="Plaina e Fresadora">
-                <img class="image" src="./assets/img/machine_3.webp" width="354px" height="320px" alt="Torno Mecânico Nardini 300">
+              <img class="image" src="./assets/img/machine_1.webp" width="354px" height="320px"
+                alt="Torno Mecânico Romi">
+              <img class="image image_2" src="./assets/img/machine_2.webp" width="354px" height="320px"
+                alt="Plaina e Fresadora">
+              <img class="image" src="./assets/img/machine_3.webp" width="354px" height="320px"
+                alt="Torno Mecânico Nardini 300">
             </div>
             <div class="col-12">
               <img src="./assets/img/machine_4.webp" width="354px" height="320px" alt="Torno Mecânico Nardini 650">
-              <img class="image_5" src="./assets/img/machine_5.webp" width="720px" height="320px" alt="Oficina com maquinàrio ao fundo">
+              <img class="image_5" src="./assets/img/machine_5.webp" width="720px" height="320px"
+                alt="Oficina com maquinàrio ao fundo">
             </div>
           </div>
         </div>
@@ -495,7 +498,7 @@
             <h2>Conteúdo</h2>
             <a href="#home">Inicio</a>
             <a href="#what_it_does">O que fazemos</a>
-            <a href="#carousel">Serviços</a>
+            <a href="#how_can_we_help">Serviços</a>
             <a href="#story">Nossa História</a>
             <a href="#contact">Contato</a>
           </div>
@@ -515,6 +518,7 @@
 
   <script src="./assets/js/jquery.js"></script>
   <script src="./assets/js/bootstrap.min.js"></script>
+  <script src="./assets/js/menu.js"></script>
   <script src="./assets/js/carousel.js"></script>
   <script src="./assets/js/script.js"></script>
 
