@@ -30,7 +30,7 @@ h2{
    font-size:32px; 
    font-weight:600;
    line-height:48px;
-   letter-spacing:2%;
+   letter-spacing:0.02em;
 }
 p{
     font-family:'Inter';
@@ -52,7 +52,7 @@ p{
     font-size:14px;
     font-weight:600;
     line-height:19px;
-    letter-spacing:10%
+    letter-spacing:0.1;
 }
 p .card-marcacao{
     font-size:12px;
@@ -93,6 +93,13 @@ button{
 .text_home{
     width:727px;
 }
+.text_home h1{
+    font-family:'Noto Sans';
+    font-weight:600;
+    font-size:48px;
+    line-height:65px;
+    letter-spacing:2%; 
+}
 #home button {
     background-color:#ffff; 
 }
@@ -108,10 +115,12 @@ button{
     background-color:var(--bg-color-2);
     padding-block: 90px;
 }
-.text_what_is_does{
+#what_is_does_p {
     width:540px;
-    margin-right:80px;
-    margin:auto;
+    
+}
+.text_what_is_does h2{
+    width: 379px;
 }
 .shadow_what_it_does{
     box-shadow:-1rem -1rem var(--primary-color) !important;
@@ -168,6 +177,10 @@ button{
     background-color: var(--primary-color);
     color: #ffff;
 }
+.best_choice_card p{
+    width:197px;
+    margin-inline:auto;
+}
 .img{
     margin-bottom:10%;
 }
@@ -212,10 +225,7 @@ button{
     background-color:var(--bg-color-2);
     padding-block:100px;
 }
-.help_contains{
-    margin-left: 50px;
-    
-}
+
 .help_text{
     margin: auto;
 }
@@ -319,7 +329,7 @@ button{
     font-weight:600;
     font-size:12px;
     line-height:16px;
-    letter-spacing:10%;
+    letter-spacing:0.1em;
     padding-left:10px; 
 }
 
@@ -332,7 +342,7 @@ button{
     font-weight:600;
     font-size:14px;
     line-height:19px;
-    letter-spacing:10%;
+    letter-spacing:0.1em;
     margin-bottom:0;
 }
 .logo_customers{
@@ -340,11 +350,13 @@ button{
 }
 
 #story{
-    padding-block: 80px 130px;
+    padding-block: 120px 130px;
 }
-.story_text{
+.story_text p{ 
     width:480px;
-    margin: auto;
+}
+.story_text {
+    margin-block:auto;
 }
 #story img{
     box-shadow:-1rem 1rem var(--primary-color);
@@ -396,10 +408,21 @@ button{
     text-decoration: none;
     color: #ffff;
 }
+#contact h2{
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom:16px;
+}
 .menu_footer {
-    display:grid;
-    margin: auto;
+    margin-inline:auto; 
+}
+.menu_footer ul{
+    padding-left:0;
 
+}
+.menu_footer li{
+    list-style:none;
+    margin-block:14px;
 }
 .menu_footer a{
     color: #ffff;
@@ -407,8 +430,7 @@ button{
     font-family:'Inter';
     font-weight:500;
     font-size:16px;
-    line-height:16px;
-    margin-block:16px;  
+     
 }
 .menu_footer a:hover{
     text-decoration:underline;
