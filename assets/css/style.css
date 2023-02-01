@@ -404,6 +404,9 @@ button{
 #contact .container{
     padding-block: 80px 40px;
 }
+.contact_details p{
+    line-height: 21px;
+}
 .contact_details  p a{
     text-decoration: none;
     color: #ffff;
