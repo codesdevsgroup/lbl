@@ -31,6 +31,13 @@
         display:none; 
         padding-inline:10px;
     }
+    #home .no_mobile_btn{
+        display: -webkit-inline-box;
+    }
+
+    #btn_nav_contact{
+        display: none;
+    }
 
     .img_what_it_does {
         width:331px;

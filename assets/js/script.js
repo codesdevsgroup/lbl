@@ -29,13 +29,13 @@ $(document).ready(function(){
           items: 1
         },
         567: {
-          items: 2
+          items: 1
         },
         1024: {
-          items: 3
+          items: 0
         },
         1280: {
-          items: 4
+          items: 0
         }
       },
       autoplayHoverPause: true

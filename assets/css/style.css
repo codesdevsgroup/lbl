@@ -100,6 +100,9 @@ button{
     background-color: var(--primary-color);
     color: #ffff;
 }
+#home .no_mobile_btn{
+    display:none;
+}
 
 #what_it_does {
     background-color:var(--bg-color-2);
@@ -377,9 +380,8 @@ button{
     margin-left:8px;
 }
 
-.owl-carousel{
-    width: 700px;
-    height: 90px;
+#carousel_mobile{
+    display:none;
 }
 
 /* footer */
