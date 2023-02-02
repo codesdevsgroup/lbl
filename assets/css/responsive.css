@@ -40,6 +40,9 @@
     #btn_nav_contact{
         display: none;
     }
+    #btn_home_resp{
+        margin-left: 1.8em;
+    }
 
     .img_what_it_does {
         width:331px;
