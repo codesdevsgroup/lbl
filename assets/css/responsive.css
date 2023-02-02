@@ -77,6 +77,13 @@
     #best_choice .container {
         padding: 80px 20px;
       }
+    .best_text{
+        width: 340px;
+        margin: auto;
+    }
+    #best_card{
+      flex-wrap: wrap;  
+    }
     .best_choice_card{
         margin-top: 25px;
       } 
