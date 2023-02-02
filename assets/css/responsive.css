@@ -86,8 +86,19 @@
     }
     .best_choice_card{
         margin-top: 25px;
-      } 
-    
+    } 
+
+    .manufacture_gears_text{
+        margin-top:40px;
+    }
+    .manufacture_gears_text h2{
+        width: 340px;
+        margin-inline: auto;
+    }
+    .manufacture_gears_text p{
+        width: 340px;
+        margin-inline: auto;
+    }
     .title_help_list{
         text-align: center;
         align-content: center;
