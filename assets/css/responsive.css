@@ -90,6 +90,7 @@
 
     .manufacture_gears_text{
         margin-top:40px;
+        padding-inline:0;
     }
     .manufacture_gears_text h2{
         width: 340px;
