@@ -3,21 +3,39 @@
         display:none;
     }
 
-    #home h1{
-        font-size:32px;
-        padding-inline:10px;
+    nav#navigation .container{
+        padding:20px !important;
     }
-    #home p{
-        padding-inline:10px;  
+    #home h1{
+        width: 336px;
+        margin-inline: auto;
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 49px;
+        letter-spacing: 0.02em;
+    }
+    .text_home p{
+        width: 340px;
+        margin-inline: auto;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
     }
     .no_wide_btn_home{
         display:none; 
         padding-inline:10px;
     }
     #home .no_mobile_btn{
-        display: -webkit-inline-box;
+        margin-inline:auto;
+        display:block;
     }
-
+    .text_home a{
+        text-decoration: none;
+    }
     #btn_nav_contact{
         display: none;
     }
