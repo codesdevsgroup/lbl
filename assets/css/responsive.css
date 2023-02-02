@@ -1,4 +1,7 @@
 @media (max-width:576px){
+    html{
+        overflow-x: hidden;
+    }
     .no_wide button{
         display:none;
     }
@@ -41,21 +44,34 @@
         display: none;
     }
     #btn_home_resp{
-        margin-left: 1em;
+        width: 340px;
+        margin: auto;
     }
 
-    .img_what_it_does {
-        width:331px;
-        height:199px;
+    .shadow_what_it_does{
+        margin-top: 24px;
     }
-    .text_what_is_does{
-        padding-inline: 20px;
+    .img_what_it_does {
+        width:320px;
+        height:211px;
+        margin: auto;
+    }
+    .text_what_is_does .p_marcacao{
+        width: 340px;
+        margin: auto;
+    }
+    .text_what_is_does h2{
+        width: 340px;
+        margin: auto;
+    }
+
+    #what_is_does_p{
+        width: 340px;
+        margin: auto;   
     }
     .text_what_is_does .p_25{
         padding-block:25px;
-    }
-    .shadow_what_it_does{
-        margin-inline:auto;
+        width: 342px;
     }
 
     #best_choice .container {
