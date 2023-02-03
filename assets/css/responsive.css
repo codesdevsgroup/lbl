@@ -101,6 +101,9 @@
         margin-inline: auto;
         padding-inline: 0;
     }
+    .green_div{
+        margin: inherit;
+    }
     #manufacture_gears img {
         width: 100%;
         height: 318px;
