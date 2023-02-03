@@ -178,5 +178,24 @@
         height:75px;
         margin-bottom:40px;
     }
-    
+
+    #story container {
+        width:320px;
+        margin: auto;
+    }
+
+    .story_text h2{
+        width: 320px;
+        margin: auto;
+        
+    }
+
+    .story_text p{
+        width: 320px;
+        margin: auto;
+    }
+
+    .story_img img{
+        width: 290px;
+    }
 }
