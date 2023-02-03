@@ -12,7 +12,7 @@
 }
 html {
     scroll-behavior:smooth;
-    overflow-x: hidden !important;
+    overflow-x: hidden;
 }
 html,body {
     width:100%;
