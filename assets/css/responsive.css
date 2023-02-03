@@ -101,6 +101,10 @@
         margin-inline: auto;
         padding-inline: 0;
     }
+    #manufacture_gears img {
+        width: 100%;
+        height: 318px;
+    }
     .manufacture_gears_text h2{
         width: 340px;
         margin-inline: auto;
