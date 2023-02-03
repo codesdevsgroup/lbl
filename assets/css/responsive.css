@@ -2,6 +2,14 @@
     html{
         overflow-x: hidden;
     }
+    .p_marcacao{
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: 0.1em;
+    }
     .no_wide button{
         display:none;
     }
@@ -198,4 +206,44 @@
     .story_img img{
         width: 290px;
     }
-}
+
+    .img_company img{
+        display: none;
+    }
+    .company_text h2{
+        width: 390px;
+        font-family: 'Noto Sans';
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    #carousel_mobile{
+        display: block;
+        width: 300px;
+        margin: auto;
+    }
+
+    #carousel_mobile .owl-next{
+        float: right;
+        margin-top: -175px;
+        z-index: 2;
+        position: relative;
+        margin-right: -20px;
+    }
+    #carousel_mobile .owl-next:hover{
+        background-color: transparent;
+    }
+
+    #carousel_mobile .owl-prev{
+        float: left;
+        margin-top: -175px;
+        z-index: 2;
+        position: relative;
+        margin-left: -20px;
+        
+      }
+      #carousel_mobile .owl-prev:hover{
+        background-color: transparent;
+      }
+    }
