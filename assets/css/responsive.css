@@ -90,6 +90,8 @@
 
     .manufacture_gears_text{
         margin-top:40px;
+        margin-inline: auto;
+        padding-inline: 0;
     }
     .manufacture_gears_text h2{
         width: 340px;
@@ -108,13 +110,24 @@
         font-size: 32px;
     } 
     .p_help_list{
-        width:287px;
-        height:60px;
-        text-align:center;
+        width: 287px;
+        font-family: 'Inter';
+        text-align:inherit;
         font-size:18px;
-        line-height:30px;
+        line-height:20px;
+        font-weight: 600;
         margin:auto;
-        color: #000;
+        color:#141414;
+    }
+    .card_help_text .p_help_list_mobile{
+        width: 227px;
+        font-family: 'Inter';
+        text-align:inherit;
+        font-size:11px;
+        line-height:20px;
+        font-weight: 600;
+        margin:auto;
+        color:#00A54F;
     }
     .help_list{
         margin-top:20px;
@@ -125,6 +138,27 @@
         margin-inline:35px;
         font-size:20px;
         line-height:30px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .card_img_help_list{
+        width: 251px;
+        height: 80px;
+        margin-top:-55px;
+    }
+    .card_help_text p{
+        font-family:'Inter';
+        font-size: 11px;
+        line-height: 20px;
+        font-weight: 600;
+    }
+    .img_help_list{
+        padding-left: 32px;
+    }
+    .img_help_list img{
+        width: 320px;
+        height: 300px;
     }
     .help_list img{
         display: flex;
@@ -135,4 +169,5 @@
     .btn_help_list{
         margin-left:10%;
     }
+    
 }
