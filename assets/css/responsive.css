@@ -147,7 +147,6 @@
     }
     .help_list p {
         align-items:center;
-        margin-inline:35px;
         font-size:20px;
         line-height:30px;
         font-weight: 600;
@@ -173,10 +172,9 @@
         height: 300px;
     }
     .help_list img{
-        display: flex;
-        position: absolute;
-        margin-top: 18px;
-        margin-left: 20px;
+        margin-top: 12px;
+        width: 20px;
+        height: 20px;
     }
     .btn_help_list{
         margin-left:10%;
