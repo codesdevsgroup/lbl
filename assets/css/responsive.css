@@ -210,11 +210,16 @@
     .img_company img{
         display: none;
     }
+
+    .company_text{
+        width: 320px;
+        margin: auto;
+    }
     .company_text h2{
-        width: 390px;
+        width: 320px;
         font-family: 'Noto Sans';
         font-weight: 600;
-        font-size: 32px;
+        font-size: 30px;
         line-height: 48px;
     }
 
