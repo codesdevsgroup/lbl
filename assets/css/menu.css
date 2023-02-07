@@ -27,6 +27,7 @@ nav#navigation .logo_home img{
 }
 
 nav#navigation .logo_home p{
+  color: #ffffff;
   margin:0;
   margin-block:auto;
   font-family:'Noto Sans';
