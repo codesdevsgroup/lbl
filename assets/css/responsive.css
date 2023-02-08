@@ -295,4 +295,22 @@
         #manufacture_gears img{
             width: 100%;
         }
+        .manufacture_gears_text{
+            padding-top: 20px;
+            padding-inline:0;
+        }
+        .manufacture_gears_text h2{
+            width: auto;
+            margin: auto;
+        }
+        .mgt_all{
+            display: none;
+        }
+        .mgt_tablet{
+            display: block;
+        }
+        .manufacture_gears_text p{
+            width: auto;
+
+        }
     }

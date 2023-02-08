@@ -190,6 +190,9 @@ button{
     margin-top:10%;
 }
 
+.mgt_tablet{
+    display: none;
+}
 .manufacture_gears_text h2{
     width:552px;
     margin-bottom:16px;
