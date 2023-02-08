@@ -260,3 +260,39 @@
         background-color: transparent;
       }
     }
+
+    @media(min-width:577px) and (max-width:1023px) {
+        #btn_nav_contact{
+            display: none;
+        }
+        
+        .text_what_is_does {
+            width: auto;
+            margin: auto;
+        }
+        .text_what_is_does h2{
+            width: auto;
+            margin: auto;
+        }
+        #what_is_does_p{
+            width: auto;
+            margin: auto;
+        }
+        .shadow_what_it_does{
+            margin-top: 40px;
+        }
+
+        #best_choice .container{
+            padding: 0;
+        }
+        .best_text{
+            width: auto;
+        }
+        #best_card{
+            padding-bottom: 40px;
+        }
+
+        #manufacture_gears img{
+            width: 100%;
+        }
+    }
