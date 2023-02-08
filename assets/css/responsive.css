@@ -313,4 +313,19 @@
             width: auto;
 
         }
+
+        .help_list p{
+            width: auto;
+        }
+
+        .img_help_list{
+            padding-left: 48px;
+            margin: auto;
+            width: 480px;
+        }
+        .card_img_help_list{
+            width: 480px;
+            margin-inline:auto;
+        }
+
     }
