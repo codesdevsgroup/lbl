@@ -212,6 +212,7 @@
     }
 
     .story_img img{
+        margin-block: 30px;
         width: 290px;
     }
 
