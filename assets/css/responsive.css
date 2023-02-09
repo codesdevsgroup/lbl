@@ -335,4 +335,9 @@
         .logo_customers img{
             margin-bottom: 25px;
         }
+
+        .story_text p{
+            width: auto;
+            margin-bottom: 40px;
+        }
     }
