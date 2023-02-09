@@ -193,6 +193,10 @@ button{
 .mgt_tablet{
     display: none;
 }
+
+#manufacture_gears .row {
+    --bs-gutter-x: 0 !important;
+}
 .manufacture_gears_text h2{
     width:552px;
     margin-bottom:16px;
@@ -200,9 +204,8 @@ button{
 .manufacture_gears_text p{
     width:531px;                
 }
-.manufacture_gears img {
-    width:714px;
-    height:493px;
+#manufacture_gears img {
+    width:100%;
 }
 .manufacture_gears_text{
     color:#ffff;

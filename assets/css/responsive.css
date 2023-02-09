@@ -261,7 +261,7 @@
       }
     }
 
-    @media(min-width:577px) and (max-width:1023px) {
+    @media(min-width:577px) and (max-width:1024px) {
         #btn_nav_contact{
             display: none;
         }
