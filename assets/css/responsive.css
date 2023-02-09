@@ -340,4 +340,41 @@
             width: auto;
             margin-bottom: 40px;
         }
+
+        .img_company img{
+            display: none;
+        }
+
+        .company_text{
+            text-align: center;
+        }
+
+        #company_and_machines #carousel_mobile{
+            display: block;
+            width: 540px;
+            margin: auto;
+        }
+
+        #carousel_mobile .owl-next{
+            float: right;
+            margin-top: -165px;
+            z-index: 2;
+            position: relative;
+            margin-right: -20px;
+        }
+        #carousel_mobile .owl-next:hover{
+            background-color: transparent;
+        }
+
+        #carousel_mobile .owl-prev{
+            float: left;
+            margin-top: -165px;
+            z-index: 2;
+            position: relative;
+            margin-left: -20px;
+        }
+        #carousel_mobile .owl-prev:hover{
+            background-color: transparent;
+        }
+
     }
