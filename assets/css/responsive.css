@@ -328,4 +328,11 @@
             margin-inline:auto;
         }
 
+        .logo_customers{
+            margin: auto;
+            width: 240px;
+        }
+        .logo_customers img{
+            margin-bottom: 25px;
+        }
     }
