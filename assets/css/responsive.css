@@ -377,4 +377,12 @@
             background-color: transparent;
         }
 
+        #contact .contact_details,
+        #contact .menu_footer,
+        #contact iframe {
+            width: 540px;
+            margin: auto;
+            margin-block: 20px;
+        }
+
     }
